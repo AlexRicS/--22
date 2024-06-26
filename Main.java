@@ -35,7 +35,7 @@ public class Main {
                 }
                 System.out.print("Введите номер машины: ");
                 int choice = scanner.nextInt();
-                resultSet.beforeFirst(); // Перемещаем курсор в начало
+                resultSet.beforeFirst();
                 index = 1;
                 while (resultSet.next()) {
                     if (index == choice) {
